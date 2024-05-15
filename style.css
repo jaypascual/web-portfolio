@@ -1,0 +1,257 @@
+nav {
+	background: rgb(151, 151, 151) !important;
+}
+nav a {
+	font-family: 'Ubuntu Sans';
+	font-style: normal !important;
+	font-weight: 500 !important;
+	font-size: 18px !important;
+	line-height: 22px;
+	text-align: center;
+	color: #FFF !important;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar-nav a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+
+.navbar-nav a:hover::before {
+    width: 100%;
+}
+
+#landing {
+	background: 
+		linear-gradient(
+
+			rgba(0, 0, 0, 0.59),
+			rgba(0, 0, 0, 0.59)
+			),
+
+		url("./images/img1.JPG");
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	;
+}
+
+#banner {
+	font-family: 'Ubuntu Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 72px;
+	/* or 112% */
+
+	display: flex;
+	align-items: flex-end;
+	letter-spacing: -0.02em;
+
+	color: #FFFFFF;
+}
+
+#banner-text {
+	font-family: 'Ubuntu Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+
+#banner-btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 32px;
+	gap: 8px;
+
+	width: 180px;
+	height: 48px;
+
+	background: #B59066;
+	border-radius: 999px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+
+	font-family: 'Ubuntu Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	/* identical to box height, or 120% */
+
+	text-align: center;
+
+	/* Button/Text/button-primary-text */
+
+	color: #FFFFFF;
+}
+
+#text-title {
+	font-family: 'Ubuntu Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+	color: #765C3D;
+}
+.about-text {
+	font-family: 'Ubuntu Sans';
+	font-style: normal;
+
+	color: #765C3D;
+}
+
+#page1-header {
+	font-family: 'Ubuntu Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #765C3D;
+}
+
+#page1-text {
+
+	font-family: 'Ubuntu Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+
+	color: #765C3D;
+}
+
+#contact {
+	background: #2c3666;
+}
+
+#contact-header {
+	font-family: 'Ubuntu Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+	color: #FFF;
+}
+
+#contact-text {
+	font-family: 'Ubuntu Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: #FFF;
+}
+
+#contact form label {
+	font-family: 'Ubuntu Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+
+	color: #B59066;
+}
+
+#contact form input {
+	border: 1px solid #B59066 !important;
+	border-radius: 0 !important;
+	font-family: 'Ubuntu Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+
+	color: #765C3D !important;
+}
+
+#contact form textarea {
+	border: 1px solid #e8dfd5 !important;
+	border-radius: 0 !important;
+	font-family: 'Ubuntu Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+
+	color: #e7e2de !important;
+}
+
+#form-btn {
+	padding: 12px 32px;
+	gap: 8px;
+	background: #B59066;
+	border-radius: 999px;
+	border: none;
+	font-family: 'Ubuntu Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#footer {
+	background: rgb(151, 151, 151) !important;
+
+}
+
+#copyright {
+	font-size: 20px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+#tools-header-one {
+	font-family: 'Ubuntu Sans';
+	color: #765C3D;
+	font-weight: 600;
+	font-size: 40px;
+}
+
+#tools-header-two {
+	font-family: 'Ubuntu Sans';
+	color: #765C3D;
+	font-weight: 600;
+	font-size: 40px;
+}
